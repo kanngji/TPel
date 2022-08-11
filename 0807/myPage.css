@@ -1,0 +1,158 @@
+/* reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  /* padding: 1px; */
+  width: 100%;
+  /* height: 1%; */
+  background-color: rgb(46, 154, 139);
+  color: white;
+  display: flex;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: space-between;
+  /* position: relative; */
+}
+header .logo {
+  /* position: absolute; */
+  margin-left: 2%;
+}
+header .logo img {
+  width: 100px;
+  border-radius: 20%;
+  /* box-shadow: 0, 0, 5%, rgb(46, 154, 139); */
+  /* position: absolute; */
+  /* height: 100px; */
+  /* object-fit: contain; */
+}
+header .intro {
+  margin-left: 5%;
+  font-size: 2vw;
+}
+
+header .sns {
+  margin-right: 2%;
+  font-size: 2vw;
+}
+
+header .sns > a {
+  color: white;
+}
+header .sns > a:hover {
+  color: rgb(94, 180, 233);
+}
+.concept {
+  width: 100%;
+  height: 5vw;
+  border: 1px solid #eee;
+  /* background-color: yellow */
+  /* display: inline-block; */
+  text-align: center;
+  align-items: center;
+  font-size: 2vw;
+  line-height: 5vw;
+}
+section {
+  width: 50%;
+  /* height: 100vh; */
+  /* border: 2px solid #000; */
+  margin: auto;
+}
+
+section .container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+}
+section .container #title {
+  font-size: 2vw;
+  padding: 2vw;
+  color: red;
+  text-align: center;
+}
+
+section .container .mv-img img {
+  width: 100%;
+  height: 30%;
+}
+
+section .container #director {
+  display: flex;
+  padding: 1vw;
+  border-bottom: 1px solid #eee;
+  /* justify-content: space-between; */
+}
+
+section .container #actor {
+  display: flex;
+  padding: 1vw;
+  border-bottom: 1px solid #eee;
+}
+section .container #genre {
+  display: flex;
+  padding: 1vw;
+  border-bottom: 1px solid #eee;
+}
+section .container #time {
+  display: flex;
+  padding: 1vw;
+  border-bottom: 1px solid #eee;
+}
+section .container #rating {
+  display: flex;
+  padding: 1vw;
+  border-bottom: 1px solid #eee;
+}
+
+section .container #soundtrack {
+  display: flex;
+  padding: 1vw;
+}
+section .container #soundtrack span {
+  margin-right: 1vw;
+  /* border: 1px solid #000; */
+}
+
+section .container #soundtrack i {
+  /* border: 1px solid #000; */
+  /* align-items: center;
+  text-align: center; */
+  margin: auto 0;
+}
+
+section .container p {
+  margin-left: 1vw;
+}
+
+section nav {
+  width: 100%;
+  padding: 2vw;
+  font-size: 2vw;
+}
+
+section nav .btns {
+  display: flex;
+  font-size: 2vw;
+  justify-content: space-between;
+}
+
+section nav .btns i {
+  cursor: pointer;
+}
+
+section nav .btns a {
+  color: black;
+}

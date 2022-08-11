@@ -1,0 +1,67 @@
+/* reset css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  /* background-color: black; */
+}
+
+section .container {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+section .container p {
+  color: white;
+}
+
+#lastText {
+}
+#lastText .container {
+  padding: 8em;
+}
+#lastText .container p {
+  font-size: 5em;
+}
+#lastText .container .part-1 {
+  border: 1px solid white;
+  /* transform: translateX(-700px); */
+  transition: 1s;
+}
+/* #lastText .container .part-1:hover {
+  transform: translateX(0px);
+} */
+#lastText .container .part-2 {
+  border: 1px solid white;
+  margin-left: 5em;
+  /* transform: translateX(700px); */
+  transition: 1s;
+}
+/* #lastText .container .part-2:hover {
+  transform: translateX(0px);
+} */
+#lastText .container .commet {
+}
+#lastText .container .part-3 {
+  margin-top: 5em;
+  margin-left: 10em;
+  border: 1px solid white;
+  /* transform: translateX(-700px); */
+  transition: 1s;
+}
+/* #lastText .container .part-3:hover {
+  transform: translateX(0px);
+} */
+#lastText .container .part-4 {
+  margin-left: 15em;
+  border: 1px solid white;
+  transition: 1s;
+}
+#lastText .container .questionMark {
+}

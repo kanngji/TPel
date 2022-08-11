@@ -1,0 +1,33 @@
+/* 참고 url */
+/* https://www.youtube.com/watch?v=rfpRZ2t_BrQ */
+
+/* reset css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+}
+.box {
+  width: 25%;
+  height: 100vh;
+}
+
+.lightpink {
+  background: lightpink;
+}
+
+.hotpink {
+  background: hotpink;
+  cursor: url(./rocket.png), auto;
+}
+
+.brown {
+  background: brown;
+}
+
+.blue {
+  background: blue;
+}

@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.panel {
+  height: 100vh;
+  background-color: pink;
+}
